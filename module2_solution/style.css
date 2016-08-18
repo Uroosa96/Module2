@@ -1,4 +1,50 @@
-.foodcontent {
-width: 500px;
-background-color: #FFFFFF;
+*{
+overflow: hidden;
+
+box-sizing: border-box;
+	}
+
+.MainContainer{
+		margin:10px;
+		padding: 10px;
+
+	}
+
+h1{
+	text-align: center;
+}
+h4{
+	text-align: right;
+	float:right;
+	position: relative;
+bottom:24px;
+	width:60px;
+	background-color: #FFFFFF;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.food{
+	float:left;
+text-align: center;
+padding: 5px;
+background-color: #FFE4C4;
+border-width: 1px;
+border-color: #000000;
+border-style: solid;
+}
+
+@media(min-width: 992px){
+.food{width: 33.33%;}
+}
+@media(min-width: 768px) and (max-width: 991px){
+
+.food{
+	width: 50%%;
+}
+}
+@media(max-width: 767px){
+.food{width: 100%;}
 }
