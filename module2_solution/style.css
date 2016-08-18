@@ -15,18 +15,50 @@ h1{
 	text-align: center;
 	margin-bottom: 15px;
 }
-h4{
+.h41{
 	text-align: right;
 	float:right;
 	position: relative;
-bottom:24px;
+    bottom:24px;
 	width:60px;
-	background-color: #7FFFD4;
 	border-color: #000000;
 	border-width: 1px;
 	border-style: solid;
+	padding-right: 10px;
 	padding-left: 2px;
-	padding-right: 2px;
+background-color: #ADFF2F
+
+}
+.h42{
+	text-align: right;
+	float:right;
+	position: relative;
+    bottom:24px;
+	width:60px;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	padding-right: 3px;
+	padding-left: 2px;
+	background-color: 	#F08080;
+	
+}
+.h43{
+	text-align: right;
+	float:right;
+	position: relative;
+    bottom:24px;
+	width:60px;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+	padding-right: 10px;
+	padding-left: 2px;
+	background-color: 	#ADD8E6;
+	
+}
+h4{
+	
 }
 .food{
 	float:left;
