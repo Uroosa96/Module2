@@ -1,17 +1,19 @@
 *{
 overflow: hidden;
-
 box-sizing: border-box;
 	}
 
-.MainContainer{
-		margin:10px;
-		padding: 10px;
-
-	}
+.out{
+	border-color: #FFFFFF;
+	border-width: 2px;
+	border-style: solid;
+	padding: 2px;
+	float: left;
+}
 
 h1{
 	text-align: center;
+	margin-bottom: 15px;
 }
 h4{
 	text-align: right;
@@ -19,7 +21,7 @@ h4{
 	position: relative;
 bottom:24px;
 	width:60px;
-	background-color: #FFFFFF;
+	background-color: #7FFFD4;
 	border-color: #000000;
 	border-width: 1px;
 	border-style: solid;
@@ -29,22 +31,45 @@ bottom:24px;
 .food{
 	float:left;
 text-align: center;
-padding: 5px;
 background-color: #FFE4C4;
 border-width: 1px;
 border-color: #000000;
 border-style: solid;
+
+}
+.foodcontent{
+	padding: 5px;
 }
 
 @media(min-width: 992px){
-.food{width: 33.33%;}
+.out{
+	width: 33.33%;
+}
+.food{
+	
+}
 }
 @media(min-width: 768px) and (max-width: 991px){
 
+.out{
+	width: 50%;
+}
+.out3{
+	width:100%;
+	
+}
 .food{
-	width: 50%%;
+
+}
+.food3{
+	
 }
 }
 @media(max-width: 767px){
-.food{width: 100%;}
+.food{
+
+}
+.out{
+	width:100%;
+}
 }
